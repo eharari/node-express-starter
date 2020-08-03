@@ -1,5 +1,6 @@
 const express = require('express');
-const app = express()
+const app = express();
+const cors = require('cors');
 const { config } = require('../config')
 const mongoose = require('mongoose')
 
