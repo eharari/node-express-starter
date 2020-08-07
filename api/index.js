@@ -19,6 +19,6 @@ mongoose.connect(
 .catch((err)=> console.log('Error on connection', err))
 
 
-app.use('/api/v1', require('../Routes'))
+app.use('/api/v1', require('../routes'))
 
 module.exports = { app }
